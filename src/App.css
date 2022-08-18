@@ -6,9 +6,35 @@ font-size: 2em;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     margin: 1em;
     user-select: none;
+     background: saddlebrown;
+     color: white;
 }
 
 .activeCard {
-    color: red;
-    background: pink;
+    color: white;
+    background: rgb(205, 76, 28);
+
 }
+
+/**{
+    background: burlywood;
+}*/
+body {
+    background-color: burlywood;
+}
+div {
+    text-align: center;
+
+}
+h2 {
+    color: rgb(101, 57, 0);
+    padding: 50px;
+}
+
+
+div.cities {
+    background-color: rgb(147, 83, 0);
+    color: white;
+    margin: 20px 0 20px 0;
+    padding: 20px;
+} 
