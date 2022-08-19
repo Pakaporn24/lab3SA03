@@ -3,6 +3,8 @@ Lab3SA03
 Wep จะเป็นการทำงานการเรียงคำให้ถูก หากเรียงถูก ก็สามารถกด reset ในการเล่นใหม่ได้ หากเรียงคำผิดก็จะให้เรียงใหม่ จะมีการเพิิ่มเติมและตหแต่งต่างๆ
 -มีการแก้ไขในหน้่า App.js มีการเพิ่มจำนวนคำศัพท์ โดย imports WordCard โดยจะมีการส่ง prop value คำต่างๆ 
 มีการสร้าง ในการเก็บฟังชัน prepareStateFromWord โดยจะส่งค่าไปและจะ return กลับมา ค่าที่ได้จะ map จะส่งค่า value={c} key={i} activationHandler={activationHandler} attempt={state.attempt} กลับไปที่ CharacterCard
+ส่วนที่เพิ่มคำศัพท์ 
+https://drive.google.com/file/d/1QAG069ZfGl8FtIspLi0xZZMJj5PfUIkD/view?usp=sharing
 -มีการแต่งสีพื้นหลัง
 -เพิ่มส่วนหัวของเกม
 -ปรับเปลี่ยนสีของกล่อง ตัวเลือก
