@@ -1,9 +1,19 @@
 Lab3SA03
 นางสาวผกาภรณ์  รามเจริญ 6310110287 sec 01
 Wep จะเป็นการทำงานการเรียงคำให้ถูก หากเรียงถูก ก็สามารถกด reset ในการเล่นใหม่ได้ หากเรียงคำผิดก็จะให้เรียงใหม่ จะมีการเพิิ่มเติมและตหแต่งต่างๆ
--เพิ่มจำนวนคำศัพท์ในเกม 
+-มีการแก้ไขในหน้่า App.js มีการเพิ่มจำนวนคำศัพท์ โดย imports WordCard โดยจะมีการส่ง prop value คำต่างๆ 
+มีการสร้าง ในการเก็บฟังชัน prepareStateFromWord โดยจะส่งค่าไปและจะ return กลับมา ค่าที่ได้จะ map จะส่งค่า value={c} key={i} activationHandler={activationHandler} attempt={state.attempt} กลับไปที่ CharacterCard
 -มีการแต่งสีพื้นหลัง
 -เพิ่มส่วนหัวของเกม
 -ปรับเปลี่ยนสีของกล่อง ตัวเลือก
 -บอกหมวดหมู่ของคำศัพท์
 -แก้ไขคำเวลาตอบ ผิด
+
+หน้าจอเริ่มต้น 
+https://drive.google.com/file/d/1PFsTyBzTB9L-V7GV_Smfg9lHULLQTFmS/view?usp=sharing
+
+เมื่อกกดเรียงตัวอักษร
+https://drive.google.com/file/d/1pevcp0aAyq4_GRiLAvCoBWydBDGFDoof/view?usp=sharing
+
+หากเรียงผิดก็ให้เรียงใหม่
+https://drive.google.com/file/d/1mcVSl-u1VTu3NyEXl0JcGLFQOm9jyfbN/view?usp=sharing
